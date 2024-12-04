@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gajah Semut Orang</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Gajah 🐘 Semut 🐜 Orang 🧍</h1>
+        <p>Skor Tertinggi: <span id="high-score">0</span></p>
+        <p id="game-info">Pilih salah satu:</p>
+        <div class="choices">
+            <button class="choice-btn" onclick="playGame('gajah')">🐘 Gajah</button>
+            <button class="choice-btn" onclick="playGame('semut')">🐜 Semut</button>
+            <button class="choice-btn" onclick="playGame('orang')">🧍 Orang</button>
+        </div>
+        <div id="result" class="result"></div>
+        <div id="scoreboard" class="scoreboard"></div>
+        <button class="reset-btn" onclick="resetGame()">Reset Game</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
